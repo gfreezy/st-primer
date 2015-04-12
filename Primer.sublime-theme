@@ -870,91 +870,60 @@
         "layer1.opacity": 1
     },
     {
+        "class": "quick_panel_label",
+        "fg": [138, 138, 138, 255], // 03
+        "match_fg": [138, 138, 138, 255], // 05
+        "selected_fg": [255, 255, 255, 255], // 03
+        "selected_match_fg": [255, 255, 255, 255] // 05
+    },
+    {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [255, 255, 255] // -01
+        "layer0.tint": [65, 131, 196] // -01
     },
-    {
-        "class": "quick_panel_label",
-        "fg": [102, 102, 102, 255], // 04
-        "match_fg": [65, 131, 196, 255], // 05
-        "selected_fg": [51, 51, 51, 255], // 05
-        "selected_match_fg": [65, 131, 196, 255] // 07
-    },
-        // CUSTOM - Quick Panel Label
+       // CUSTOM - Quick Panel Row
         {
-            "class": "quick_panel_label",
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
             "settings": ["theme_primer_tab_active_blue"],
-            "match_fg": [65, 131, 196],
-            "selected_match_fg": [65, 131, 196]
+            "layer0.tint": [65, 131, 196],
         },
         {
-            "class": "quick_panel_label",
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
             "settings": ["theme_primer_tab_active_green"],
-            "match_fg": [108, 198, 68],
-            "selected_match_fg": [108, 198, 68]
+            "layer0.tint": [108, 198, 68],
         },
         {
-            "class": "quick_panel_label",
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
             "settings": ["theme_primer_tab_active_red"],
-            "match_fg": [189, 44, 0],
-            "selected_match_fg": [189, 44, 0]
+            "layer0.tint": [189, 44, 0],
         },
         {
-            "class": "quick_panel_label",
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
             "settings": ["theme_primer_tab_active_orange"],
-            "match_fg": [255, 153, 51],
-            "selected_match_fg": [255, 153, 51]
+            "layer0.tint": [255, 153, 51],
         },
         {
-            "class": "quick_panel_label",
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
             "settings": ["theme_primer_tab_active_purple"],
-            "match_fg": [110, 84, 148],
-            "selected_match_fg": [110, 84, 148]
+            "layer0.tint": [110, 84, 148],
         },
     {
         "class": "quick_panel_path_label",
-        "fg": [153, 153, 153, 255], // 03
-        "match_fg": [167, 173, 186, 255], // 04
-        "selected_fg": [138, 138, 138, 255], // 03
-        "selected_match_fg": [167, 173, 186, 255] // 04
+        "fg": [138, 138, 138, 255], // 03
+        "match_fg": [138, 138, 138, 255], // 05
+        "selected_fg": [255, 255, 255, 255], // 03
+        "selected_match_fg": [255, 255, 255, 255] // 05
     },
-        // CUSTOM - Quick Panel Label
-        {
-            "class": "quick_panel_path_label",
-            "settings": ["theme_primer_tab_active_blue"],
-            "match_fg": [65, 131, 196],
-            "selected_match_fg": [65, 131, 196]
-        },
-        {
-            "class": "quick_panel_path_label",
-            "settings": ["theme_primer_tab_active_green"],
-            "match_fg": [108, 198, 68],
-            "selected_match_fg": [108, 198, 68]
-        },
-        {
-            "class": "quick_panel_path_label",
-            "settings": ["theme_primer_tab_active_red"],
-            "match_fg": [189, 44, 0],
-            "selected_match_fg": [189, 44, 0]
-        },
-        {
-            "class": "quick_panel_path_label",
-            "settings": ["theme_primer_tab_active_orange"],
-            "match_fg": [255, 153, 51],
-            "selected_match_fg": [255, 153, 51]
-        },
-        {
-            "class": "quick_panel_path_label",
-            "settings": ["theme_primer_tab_active_purple"],
-            "match_fg": [110, 84, 148],
-            "selected_match_fg": [110, 84, 148]
-        },
     {
         "class": "quick_panel_score_label",
         "fg": [138, 138, 138, 255], // 03
-        "selected_fg": [138, 138, 138, 255] // 03
+        "selected_fg": [255, 255, 255, 255] // 03
     },
 
 //
@@ -976,8 +945,39 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         // "layer0.texture": "",
-        "layer0.tint": [255, 255, 255] // -01
+        "layer0.tint": [65, 131, 196]  // -01
     },
+       // CUSTOM - Mini Quick Panel Row
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "settings": ["theme_primer_tab_active_blue"],
+            "layer0.tint": [65, 131, 196],
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "settings": ["theme_primer_tab_active_green"],
+            "layer0.tint": [108, 198, 68],
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "settings": ["theme_primer_tab_active_red"],
+            "layer0.tint": [189, 44, 0],
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "settings": ["theme_primer_tab_active_orange"],
+            "layer0.tint": [255, 153, 51],
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "settings": ["theme_primer_tab_active_purple"],
+            "layer0.tint": [110, 84, 148],
+        },
 
 //
 // CODE COMPLETION DROPDOWN
@@ -994,38 +994,12 @@
         "row_padding": [4,4]
     },
     {
-        "c": "auto_complete_label",
+        "class": "auto_complete_label",
         "fg": [138, 138, 138, 255], // 03
-        "match_fg": [192, 197, 206, 255], // 05
-        "selected_fg": [51, 51, 51, 255], // 03
-        "selected_match_fg": [192, 197, 206, 255] // 05
+        "match_fg": [138, 138, 138, 255], // 05
+        "selected_fg": [255, 255, 255, 255], // 03
+        "selected_match_fg": [255, 255, 255, 255] // 05
     },
-        // CUSTOM - Quick Panel Label
-        {
-            "class": "auto_complete_label",
-            "settings": ["theme_primer_tab_active_blue"],
-            "selected_match_fg": [65, 131, 196]
-        },
-        {
-            "class": "auto_complete_label",
-            "settings": ["theme_primer_tab_active_green"],
-            "selected_match_fg": [108, 198, 68]
-        },
-        {
-            "class": "auto_complete_label",
-            "settings": ["theme_primer_tab_active_red"],
-            "selected_match_fg": [189, 44, 0]
-        },
-        {
-            "class": "auto_complete_label",
-            "settings": ["theme_primer_tab_active_orange"],
-            "selected_match_fg": [255, 153, 51]
-        },
-        {
-            "class": "auto_complete_label",
-            "settings": ["theme_primer_tab_active_purple"],
-            "selected_match_fg": [110, 84, 148]
-        },
     {
         "class": "table_row",
         // "layer0.texture": "",
@@ -1036,9 +1010,35 @@
     {
         "class": "table_row",
         "attributes": ["selected"],
-        "layer0.tint": [255, 255, 255], // 02
+        "layer0.tint": [65, 131, 196], // 02
         "layer0.opacity": 1
     },
+        // CUSTOM - Quick Panel Label
+        {
+            "class": "table_row",
+            "settings": ["theme_primer_tab_active_blue"],
+            "layer0.tint": [65, 131, 196]
+        },
+        {
+            "class": "table_row",
+            "settings": ["theme_primer_tab_active_green"],
+            "layer0.tint": [108, 198, 68]
+        },
+        {
+            "class": "table_row",
+            "settings": ["theme_primer_tab_active_red"],
+            "layer0.tint": [189, 44, 0]
+        },
+        {
+            "class": "table_row",
+            "settings": ["theme_primer_tab_active_orange"],
+            "layer0.tint": [255, 153, 51]
+        },
+        {
+            "class": "table_row",
+            "settings": ["theme_primer_tab_active_purple"],
+            "layer0.tint": [110, 84, 148]
+        },
 
 //
 // BOTTOM PANEL BUTTONS
